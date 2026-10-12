@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/tasks/:path*", "destination": "/api/tasks.js" },
+    { "source": "/api/tasks", "destination": "/api/tasks.js" },
+    { "source": "/api/chains/:path*", "destination": "/api/chains.js" },
+    { "source": "/api/chains", "destination": "/api/chains.js" },
+    { "source": "/css/:path*", "destination": "/public/css/:path*" },
+    { "source": "/js/:path*", "destination": "/public/js/:path*" },
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

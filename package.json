@@ -1,0 +1,13 @@
+{
+  "name": "pomodoro-pro",
+  "version": "1.0.0",
+  "description": "Sleek Apple & Meta-inspired Pomodoro Task Management & Chain Application with SQLite backend",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["pomodoro", "timer", "apple-design", "sqlite", "task-chains"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
