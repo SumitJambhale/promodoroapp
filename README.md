@@ -48,7 +48,7 @@ pomodoro-app/
 The application is already running and accessible!
 
 ```bash
-cd /Users/sumitjambhale/.gemini/antigravity/scratch/pomodoro-app
+cd /.gemini/antigravity/scratch/pomodoro-app
 node server.js
 ```
 
@@ -57,7 +57,7 @@ Open your browser at:
 
 > [!TIP]
 > **Recommended Workspace Setting:**  
-> Please set `/Users/sumitjambhale/.gemini/antigravity/scratch/pomodoro-app` as your active workspace in Antigravity.
+> Please set `/.gemini/antigravity/scratch/pomodoro-app` as your active workspace in Antigravity.
 
 ---
 
